@@ -9,6 +9,7 @@ import { CaretDownIcon, HeartIcon } from "@radix-ui/react-icons";
 import { MenuIcon, XIcon } from "lucide-react";
 import { navLinks } from "@/constants";
 import { Button } from "@radix-ui/themes";
+import { twMerge } from "tailwind-merge";
 
 function NavBar() {
   const pathname = usePathname();
@@ -66,14 +67,14 @@ function NavBar() {
                 <button
                   onClick={handleProjectsToggle}
                   className={clsx(
-                    "flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 rounded hover:bg-amber-100 hover:cursor-pointer",
+                    "flex items-center gap-1 px-3 py-2 text-sm font-medium text-slate-700 rounded hover:bg-amber-100 hover:cursor-pointer",
                     pathname.startsWith(link.href) && "underline text-blue-600"
                   )}
                 >
                   {link.name}
                   <CaretDownIcon
                     className={clsx(
-                      "transition-transform duration-200 size-5 text-gray-500",
+                      "transition-transform duration-200 size-5 text-slate-500",
                       isProjectsDropdownOpen ? "-rotate-180" : "rotate-0"
                     )}
                   />
@@ -87,9 +88,9 @@ function NavBar() {
                           <Link
                             href={subLink.href}
                             className={clsx(
-                              "block px-4 py-3 text-sm text-gray-800 hover:bg-amber-100",
+                              "block px-4 py-3 text-sm text-slate-800 hover:bg-amber-100 transition-colors",
                               pathname === subLink.href &&
-                                "bg-gray-100 font-semibold"
+                                "bg-slate-100 font-semibold"
                             )}
                             onClick={() => setIsProjectsDropdownOpen(false)}
                           >
@@ -108,9 +109,9 @@ function NavBar() {
             <li key={link.name}>
               <Link
                 href={link.href}
-                className={clsx(
-                  "block px-3 py-2 text-sm font-medium text-gray-700 rounded hover:bg-amber-100",
-                  pathname === link.href && "bg-amber-100 text-blue-600"
+                className={twMerge(
+                  "block px-3 py-2 text-sm font-medium text-slate-700 rounded hover:bg-amber-100",
+                  clsx(pathname === link.href && "text-amber-500 font-semibold")
                 )}
               >
                 {link.name}
@@ -130,7 +131,7 @@ function NavBar() {
         <div className="flex justify-end px-6 py-4">
           <button
             onClick={closeMobileMenu}
-            className="p-2 text-gray-700"
+            className="p-2 text-slate-700"
             aria-label="Close menu"
           >
             <XIcon className="h-6 w-6" />
@@ -158,12 +159,12 @@ function NavBar() {
                 <li key={link.name}>
                   <button
                     onClick={handleMobileProjectsAccordionToggle}
-                    className="flex justify-between w-full px-4 py-3 text-base font-medium text-gray-700 rounded-md hover:bg-amber-100"
+                    className="flex justify-between w-full px-4 py-3 text-base font-medium text-slate-700 rounded-md hover:bg-amber-100"
                   >
                     {link.name}
                     <CaretDownIcon
                       className={clsx(
-                        "transition-transform duration-200 size-6 text-gray-500",
+                        "transition-transform duration-200 size-6 text-slate-500",
                         isMobileProjectsAccordionOpen
                           ? "-rotate-180"
                           : "rotate-0"
@@ -178,7 +179,7 @@ function NavBar() {
                             href={subLink.href}
                             onClick={closeMobileMenu}
                             className={clsx(
-                              "block px-4 py-2 text-sm text-gray-800 rounded hover:bg-amber-100",
+                              "block px-4 py-2 text-sm text-slate-800 rounded hover:bg-amber-100",
                               pathname === subLink.href &&
                                 "bg-amber-100 font-semibold"
                             )}
@@ -199,7 +200,7 @@ function NavBar() {
                   href={link.href}
                   onClick={closeMobileMenu}
                   className={clsx(
-                    "block px-4 py-3 text-base font-medium text-gray-700 rounded hover:bg-amber-100",
+                    "block px-4 py-3 text-base font-medium text-slate-800 rounded hover:bg-amber-100",
                     pathname === link.href && "bg-amber-100 text-blue-600"
                   )}
                 >
@@ -215,4 +216,3 @@ function NavBar() {
 }
 
 export default NavBar;
-

@@ -33,17 +33,6 @@ export const aboutUs: aboutUsTypes[] = [
   },
 ];
 
-export const logos: { name: string; src: string }[] = [
-  { name: "Google", src: "/globe.svg" },
-  { name: "Microsoft", src: "/globe.svg" },
-  { name: "Apple", src: "/globe.svg" },
-  { name: "Amazon", src: "/globe.svg" },
-  { name: "Netflix", src: "/globe.svg" },
-  { name: "Tesla", src: "/globe.svg" },
-  { name: "Meta", src: "/globe.svg" },
-  { name: "Adobe", src: "/globe.svg" },
-];
-
 export const slides: slidesTypes[] = [
   {
     id: 1,
@@ -121,4 +110,19 @@ export const acknowledgementData: acknowledgementTypes[] = [
     image: "/images/Wooven.png",
     status: "Gold",
   }
+]
+
+export const flagsAndLanguages: { id: number, country: string, flagUrl: string, language: string }[] = [
+  { id: 1, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "IsiXhosa" },
+  { id: 2, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "IsiZulu" },
+  { id: 3, country: "Botswana", flagUrl: "/images/flags/botswana-flag.webp", language: "SeTswana" },
+  { id: 4, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
+  { id: 5, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "SePedi" },
+  { id: 6, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Xitsonga" },
+  { id: 7, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Afrikaans" },
+  { id: 8, country: "Lesotho", flagUrl: "/images/flags/lesotho-flag.webp", language: "SeSotho" },
+  { id: 9, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
+  { id: 10, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
+  { id: 11, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
+  { id: 12, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" }
 ]

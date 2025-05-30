@@ -6,7 +6,7 @@ function MiscSection() {
   return (
     <section className="flex justify-between pb-16 pt-8">
       <div>
-        <h3 className="text-3xl font-semibold">Our Latest News</h3>
+        <h3 className="text-3xl text-slate-800 font-semibold">Our Latest News</h3>
         <div className="mt-8">
           <p className="text-lg text-gray-700 max-w-[72ch] mb-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed cumque

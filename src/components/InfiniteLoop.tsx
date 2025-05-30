@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { logos } from "@/constants";
+import { flagsAndLanguages } from "@/constants";
 
 function InfiniteLoop() {
   return (
@@ -14,38 +14,44 @@ function InfiniteLoop() {
 
         {/* Scrolling container */}
         <div className="flex animate-scroll">
-          {/* First set of logos */}
+          {/* First set of flags and languages */}
           <div className="flex min-w-max items-center space-x-16 px-8">
-            {logos.map((logo, index) => (
+            {flagsAndLanguages.map((item) => (
               <div
-                key={`first-${index}`}
-                className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
+                key={`first-${item.id}`}
+                className="flex flex-col items-center justify-center space-y-2 grayscale hover:grayscale-0 transition-all duration-300"
               >
                 <Image
-                  width={100}
-                  height={100}
-                  src={logo.src}
-                  alt={logo.name}
-                  className="h-12 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300"
+                  width={60}
+                  height={40}
+                  src={item.flagUrl}
+                  alt={`${item.country} flag`}
+                  className="h-8 w-12 object-cover rounded-sm opacity-60 hover:opacity-100 transition-opacity duration-300"
                 />
+                <span className="text-sm font-medium text-gray-700 opacity-60 hover:opacity-100 transition-opacity duration-300">
+                  {item.language}
+                </span>
               </div>
             ))}
           </div>
 
           {/* Duplicate set for seamless loop */}
           <div className="flex min-w-max items-center space-x-16 px-8">
-            {logos.map((logo, index) => (
+            {flagsAndLanguages.map((item) => (
               <div
-                key={`second-${index}`}
-                className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
+                key={`second-${item.id}`}
+                className="flex flex-col items-center justify-center space-y-2 grayscale hover:grayscale-0 transition-all duration-300"
               >
                 <Image
-                  width={100}
-                  height={100}
-                  src={logo.src}
-                  alt={logo.name}
-                  className="h-12 w-auto object-contain opacity-60 hover:opacity-100 transition-opacity duration-300"
+                  width={60}
+                  height={40}
+                  src={item.flagUrl}
+                  alt={`${item.country} flag`}
+                  className="h-8 w-12 object-cover rounded-sm opacity-60 hover:opacity-100 transition-opacity duration-300"
                 />
+                <span className="text-sm font-medium text-gray-700 opacity-60 hover:opacity-100 transition-opacity duration-300">
+                  {item.language}
+                </span>
               </div>
             ))}
           </div>
@@ -63,7 +69,7 @@ function InfiniteLoop() {
         }
 
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 35s linear infinite;
         }
 
         .animate-scroll:hover {

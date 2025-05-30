@@ -18,7 +18,7 @@ function Footer() {
       <div className="bg-gray-200">
       <div className="flex justify-between px-8 md:px-16 lg:px-36 py-12">
         <div className="space-y-4">
-          <h3 className="text-md font-semibold">Quick Links</h3>
+          <h3 className="text-md font-semibold text-slate-800">Quick Links</h3>
           <ul>
             {footerLinks.map((link) => {
               return (
@@ -30,7 +30,7 @@ function Footer() {
           </ul>
         </div>
         <div className="flex flex-col items-center space-y-4">
-          <h3 className="text-md font-semibold">Follow Us</h3>
+          <h3 className="text-md font-semibold text-slate-800">Follow Us</h3>
           <ul className="flex gap-x-4">
             <li className="size-8">
               <Link href="https://facebook.com">
@@ -54,7 +54,7 @@ function Footer() {
             </li>
           </ul>
             <Flex direction="column" gap="2" className="mt-4">
-              <h3 className="text-md font-semibold text-center mb-4">Sign Up For Our Newsletter</h3>
+              <h3 className="text-md font-semibold text-center mb-4 text-slate-800">Sign Up For Our Newsletter</h3>
               <Flex direction="row" gap="2">
               <TextField.Root size="2" placeholder="Your Email" />
               <Button size="2">
@@ -64,7 +64,7 @@ function Footer() {
             </Flex>
         </div>
         <div className="space-y-4">
-          <h3 className="text-md font-semibold">More Information</h3>
+          <h3 className="text-md font-semibold text-slate-800">More Information</h3>
           <ul>
             {footerLinks.map((link) => {
               return (

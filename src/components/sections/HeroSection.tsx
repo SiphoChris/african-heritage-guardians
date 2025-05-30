@@ -7,14 +7,14 @@ function HeroSection() {
 
       {/* Content with full opacity */}
       <div className="relative z-10">
-        <h1 className="text-7xl font-bold tracking-tighter text-black">
+        <h1 className="text-7xl font-bold tracking-tighter text-amber-900">
           African Heritage Guardians
         </h1>
-        <p className="mt-4 text-xl text-black">
+        <p className="mt-4 text-xl text-amber-900 font-semibold">
           Preserving the past. Shaping the digital future of Africa.
         </p>
-        <div className="mt-8 mx-auto">
-          <h3 className="text-4xl tracking-tight font-semibold mb-12">
+        <div className="mt-12 mx-auto">
+          <h3 className="text-4xl tracking-tighter font-semibold mb-12 text-amber-600">
             <span>Our Identity,</span>
             <span> Our Responsibility</span>
           </h3>

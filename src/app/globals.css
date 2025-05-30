@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
-
 @layer utilities {
   .card {
-    @apply border rounded-md border-gray-200 p-4 shadow-sm hover:bg-gray-100 hover:shadow-md transition-colors;
-}
+    @apply border rounded-md border-amber-50 p-4 shadow-sm shadow-amber-100 hover:bg-amber-50 hover:shadow-md hover:border-amber-200 transition-colors;
+  }
 }
