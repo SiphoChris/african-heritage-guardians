@@ -1,5 +1,3 @@
-import { Button } from "@radix-ui/themes";
-import { HeartIcon } from "@radix-ui/react-icons";
 
 function HeroSection() {
   return (
@@ -20,11 +18,7 @@ function HeroSection() {
             <span>Our Identity,</span>
             <span> Our Responsibility</span>
           </h3>
-          <Button size="4" className="hover:cursor-pointer">
-            <HeartIcon />
-            Support Us
-          </Button>
-        </div>
+                  </div>
       </div>
     </section>
   );

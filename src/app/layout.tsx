@@ -31,9 +31,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Theme radius="small">
+        <Theme radius="small" appearance="light" accentColor="amber" grayColor="gray" panelBackground="translucent">
           <NavBar />
-          <main className="lg:px-36">{children}</main>
+          <main className="lg:px-36 pt-28">{children}</main>
           {/* <ThemePanel /> */}
           <Footer />
         </Theme>

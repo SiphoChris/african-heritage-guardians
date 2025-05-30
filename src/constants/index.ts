@@ -1,9 +1,7 @@
 import { aboutUsTypes, navLinksTypes, slidesTypes, footerLinksTypes, acknowledgementTypes } from "@/types";
 
 export const navLinks: navLinksTypes[] = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Mission", href: "#" },
+  { name: "Home", href: "/" },
   {
     name: "Projects",
     href: "/projects",
