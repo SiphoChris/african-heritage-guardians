@@ -4,9 +4,9 @@ import React from "react";
 function StorySection() {
   return (
     <section className="space-y-2">
-      <div className="flex flex-col justify-center px-4 border-l-3  border-amber-500">
+      <div className="flex flex-col justify-center p-4 border rounded-lg  border-amber-300">
         <h3 className="text-3xl font-bold">Our Story</h3>
-        <p className="text-md text-gray-700 mt-2">Safe-guarding our pride</p>
+        <p className="text-md text-gray-700 mt-1">Safe-guarding our pride</p>
         <div>
           <div className="flex justify-between items-center gap-x-6">
             <p className="max-w-[72ch] text-lg">

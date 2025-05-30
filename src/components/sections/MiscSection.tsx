@@ -4,7 +4,7 @@ import { Link } from "@radix-ui/themes";
 
 function MiscSection() {
   return (
-    <section className="flex justify-between py-16">
+    <section className="flex justify-between pb-16 pt-8">
       <div>
         <h3 className="text-3xl font-semibold">Our Latest News</h3>
         <div className="mt-8">
@@ -25,6 +25,7 @@ function MiscSection() {
           width={300}
           height={300}
           alt="image"
+          className="w-full h-full object-cover object-center rounded-sm"
         />
       </div>
     </section>

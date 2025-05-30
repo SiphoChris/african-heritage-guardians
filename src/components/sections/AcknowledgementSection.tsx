@@ -8,7 +8,7 @@ import Link from "next/link";
 function AcknowledgementSection() {
   return (
     <section>
-      <h3 className="text-3xl text-center font-semibold">Acknowledgements</h3>
+      <h3 className="text-3xl text-center font-semibold">Sponsors</h3>
       <div className="py-12 px-8 md:px-16 lg:px-32 bg-gray-50 border-b border-gray-200">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 

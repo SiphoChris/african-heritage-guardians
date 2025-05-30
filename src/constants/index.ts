@@ -31,7 +31,7 @@ export const aboutUs: aboutUsTypes[] = [
   {
     title: "What We Do",
     description:
-      "We are building digital platforms that collect, organize, and publish data about African languages, literature, imagery, sounds, rituals, traditions, tools, and more.",
+      "We are building digital platforms that collect, organize, and publish data about African languages, literature, imagery, and more.",
   },
 ];
 
