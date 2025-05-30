@@ -56,7 +56,7 @@ function Carousel() {
 
               {/* Gradient Overlay */}
               <div
-                className={`absolute inset-0 bg-gradient-to-r ${slide.color} opacity-60 hover:opacity-50 transition-opacity duration-300`}
+                className={`absolute inset-0 bg-gradient-to-r ${slide.color} opacity-30 hover:opacity-50 transition-opacity duration-300`}
               />
 
               {/* Content */}
@@ -125,7 +125,7 @@ function Carousel() {
               onClick={() => goToSlide(index)}
               className={`
                 flex-shrink-0 w-12 h-8 sm:w-16 sm:h-10 lg:w-20 lg:h-12
-                rounded-md lg:rounded-lg overflow-hidden
+                rounded-sm lg:rounded-md overflow-hidden
                 transition-all duration-300 cursor-pointer
                 hover:scale-110 active:scale-95
                 ${

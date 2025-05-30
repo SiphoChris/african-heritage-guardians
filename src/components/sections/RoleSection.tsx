@@ -16,10 +16,15 @@ function RoleSection() {
             />
           </div>
           <div>
-            <h3 className="text-6xl text-amber-400 mb-12 tracking-tight font-bold">Our Role in Africa&apos;s AI Future</h3>
-            We are building the foundation for African AI. By collecting and
-            organizing linguistic, cultural, and visual data, we can help power
-            culturally accurate AI systems that empower inclusion of indigenous language into the digital world.
+            <h3 className="text-6xl text-amber-400 mb-12 tracking-tight font-bold">
+              Our Role in Africa&apos;s AI Future
+            </h3>
+            <p className="text-lg">
+              We are building the foundation for African AI. By collecting and
+              organizing linguistic, cultural, and visual data, we can help
+              power culturally accurate AI systems that empower inclusion of
+              indigenous language into the digital world.
+            </p>
           </div>
         </div>
       </div>
@@ -28,5 +33,3 @@ function RoleSection() {
 }
 
 export default RoleSection;
-
-

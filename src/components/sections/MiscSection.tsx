@@ -8,7 +8,7 @@ function MiscSection() {
       <div>
         <h3 className="text-3xl font-semibold">Our Latest News</h3>
         <div className="mt-8">
-          <p className="text-md text-gray-700 max-w-[72ch] mb-4">
+          <p className="text-lg text-gray-700 max-w-[72ch] mb-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed cumque
             ab nesciunt autem tempore, at ipsa voluptas molestias esse
             recusandae, unde voluptatem nisi iure corrupti incidunt. Suscipit

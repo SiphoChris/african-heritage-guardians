@@ -26,7 +26,7 @@ function StorySection() {
               <p className="text-2xl text-amber-700 mt-1">
                 Safe-guarding our pride
               </p>
-              <p className="max-w-[72ch] text-lg">
+              <p className="max-w-[72ch] text-lg pb-6 border-b border-gray-100">
                 African Heritage Guardians is a pioneering cultural tech
                 organization dedicated to preserving, promoting, and
                 digitalizing Africa&apos;s indigenous languages, cultures, and
@@ -34,7 +34,7 @@ function StorySection() {
                 histories deserve a place in the digital world — not just for
                 documentation, but for meaningful innovation and cultural pride.
               </p>
-              <ul className="my-12">
+              <ul className="my-6">
                 <li className="flex items-center gap-x-3"><CheckCircledIcon className="text-amber-700"/>Documenting and sharing indigenous knowledge for future generations</li>
                 <li className="flex items-center gap-x-3"><CheckCircledIcon className="text-amber-700"/>Preserving Africa&apos;s languages and cultures through open digital platforms</li>
                 <li className="flex items-center gap-x-3"><CheckCircledIcon className="text-amber-700"/>Powering culturally aware AI with authentic African data</li>

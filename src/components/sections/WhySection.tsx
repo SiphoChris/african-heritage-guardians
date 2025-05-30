@@ -10,12 +10,12 @@ function WhySection() {
             <h3 className="text-6xl text-amber-400 mb-12 tracking-tight font-bold">
               Why This Matters
             </h3>
-            Africa’s languages and cultural expressions are endangered — not
+            <p className="text-lg">Africa&apos;s languages and cultural expressions are endangered — not
             just in everyday use, but in the digital ecosystem. Most African
             languages and traditions are underrepresented or completely absent
             from modern AI systems. This creates a deep gap in global
             technology. Without data, there is no model. And without
-            representation, there is no innovation for us.
+            representation, there is no innovation for us.</p>
           </div>
           <div>
             <Image
