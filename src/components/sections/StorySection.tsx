@@ -7,8 +7,7 @@ import React from "react";
 function StorySection() {
   return (
     <section>
-      <div className="flex justify-between pb-16 pt-8">
-        <div className="grid grid-cols-2 gap-x-16 items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 items-center justify-center">
           <div>
             <Image
               src="/images/7319.jpg"
@@ -18,15 +17,15 @@ function StorySection() {
               className="w-full h-full object-cover object-center rounded-sm"
             />
           </div>
-          <div>
+          <div className="row-start-1 max-md:px-12">
             <h3 className="text-6xl text-amber-400 mb-12 tracking-tight font-bold leading-4">
               Our Story
-            </h3>
+            </h3> 
             <div className="space-y-4">
               <p className="text-2xl text-amber-700 font-black">
                 Safe-guarding our pride
               </p>
-              <div className="bg-amber-50 p-4 rounded-md -ml-4">
+              <div className="bg-amber-50 p-4 rounded-md md:-ml-4">
                 <p className="max-w-[72ch] text-lg pb-6 border-b border-gray-100">
                   African Heritage Guardians is a pioneering cultural tech
                   organization dedicated to preserving, promoting, and
@@ -63,7 +62,6 @@ function StorySection() {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 }

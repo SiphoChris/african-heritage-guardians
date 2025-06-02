@@ -5,12 +5,12 @@ function WhySection() {
   return (
     <section className="flex justify-between pb-16 pt-8">
       <div>
-        <div className="grid grid-cols-2 gap-x-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 py-12 px-8 md:px-16 gap-x-12">
           <div>
             <h3 className="text-6xl text-amber-400 mb-12 tracking-tight font-bold">
               Why This Matters
             </h3>
-            <p className="text-lg">Africa&apos;s languages and cultural expressions are endangered — not
+            <p className="text-lg mb-6">Africa&apos;s languages and cultural expressions are endangered — not
             just in everyday use, but in the digital ecosystem. Most African
             languages and traditions are underrepresented or completely absent
             from modern AI systems. This creates a deep gap in global

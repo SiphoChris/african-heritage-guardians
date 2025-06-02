@@ -69,7 +69,7 @@ function InfiniteLoop() {
         }
 
         .animate-scroll {
-          animation: scroll 35s linear infinite;
+          animation: scroll 25s linear infinite;
         }
 
         .animate-scroll:hover {

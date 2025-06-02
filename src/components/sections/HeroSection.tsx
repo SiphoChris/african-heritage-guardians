@@ -15,7 +15,7 @@ function HeroSection() {
         </p>
         <div className="mt-12 mx-auto">
           <h3 className="text-4xl tracking-tighter font-semibold mb-12 text-amber-600">
-            <span>Our Identity,</span>
+            <span>Our Identity</span> - 
             <span> Our Responsibility</span>
           </h3>
                   </div>

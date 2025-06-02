@@ -124,5 +124,18 @@ export const flagsAndLanguages: { id: number, country: string, flagUrl: string, 
   { id: 9, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
   { id: 10, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
   { id: 11, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
-  { id: 12, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" }
+  { id: 12, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" },
+  // duplicates
+  { id: 13, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "IsiXhosa" },
+  { id: 14, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "IsiZulu" },
+  { id: 15, country: "Botswana", flagUrl: "/images/flags/botswana-flag.webp", language: "SeTswana" },
+  { id: 16, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
+  { id: 17, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "SePedi" },
+  { id: 18, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Xitsonga" },
+  { id: 19, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Afrikaans" },
+  { id: 20, country: "Lesotho", flagUrl: "/images/flags/lesotho-flag.webp", language: "SeSotho" },
+  { id: 21, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
+  { id: 22, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
+  { id: 23, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
+  { id: 24, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" }
 ]

@@ -34,7 +34,7 @@ function Carousel() {
   const handleMouseLeave = () => setIsAutoPlaying(true);
 
   return (
-    <div className="w-full max-w-sm sm:max-w-2xl md:max-w-4xl lg:max-w-6xl mx-auto bg-white rounded-lg sm:rounded-xl lg:rounded-lg shadow-sm overflow-hidden">
+    <div className="w-full sm:max-w-full md:max-w-4xl lg:max-w-6xl mx-auto bg-white rounded-lg sm:rounded-xl lg:rounded-lg shadow-sm overflow-hidden">
       {/* Main Carousel Container */}
       <div
         className="relative h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden cursor-grab active:cursor-grabbing"

@@ -4,10 +4,11 @@ import { Link } from "@radix-ui/themes";
 
 function MiscSection() {
   return (
-    <section className="flex justify-between pb-16 pt-8">
+    <section className="flex justify-between flex-wrap md:flex-nowrap pb-16 md:pt-8 max-sm:px-8">
       <div>
         <h3 className="text-3xl text-slate-800 font-semibold">Our Latest News</h3>
         <div className="mt-8">
+        <h5 className="text-xl text-slate-600 font-semibold mb-4">Visiting the Museum</h5>
           <p className="text-lg text-gray-700 max-w-[72ch] mb-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed cumque
             ab nesciunt autem tempore, at ipsa voluptas molestias esse

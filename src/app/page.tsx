@@ -11,7 +11,7 @@ import WhySection from "@/components/sections/WhySection";
 
 export default function Home() {
   return (
-      <div className="space-y-16">
+      <div className="space-y-12 lg:space-y-16">
         <HeroSection />
         <StorySection/>
         <InfiniteLoop/>
