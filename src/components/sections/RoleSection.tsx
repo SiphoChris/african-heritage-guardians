@@ -3,7 +3,7 @@ import React from "react";
 
 function RoleSection() {
   return (
-    <section className="flex justify-between border-b border-gray-200">
+    <section className="flex justify-between border-b border-gray-200 pb-6 md:pb-12">
       <div>
         <div className="grid grid-cols-1 md:px-16 lg:grid-cols-2 gap-x-6 md:gap-x-12 px-8">
           
