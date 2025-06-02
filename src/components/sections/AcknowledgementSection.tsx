@@ -19,7 +19,7 @@ function AcknowledgementSection() {
                 src={data.image}
                 alt="Acknowledgement Image"
                 fill
-                className="object-cover object-center"
+                className="object-contain object-center" // Changed to object-contain
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <Badge color="orange" className="absolute top-3 right-3 z-10">

@@ -94,20 +94,20 @@ export const footerLinks: footerLinksTypes[] = [
 export const acknowledgementData: acknowledgementTypes[] = [
   {
     id: 1,
-    name: "companyName",
-    image: "/images/Wooven.png",
+    name: "DSD",
+    image: "/images/sponsors/dsd.png",
     status: "Gold",
   },
   {
     id: 2,
-    name: "companyName",
-    image: "/images/Wooven.png",
+    name: "DSTI",
+    image: "/images/sponsors/dsti.jpg",
     status: "Silver",
   },
   {
     id: 3,
-    name: "companyName",
-    image: "/images/Wooven.png",
+    name: "NYDA",
+    image: "/images/sponsors/nyda.png",
     status: "Gold",
   }
 ]
