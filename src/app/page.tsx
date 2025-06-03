@@ -9,6 +9,11 @@ import RoleSection from "@/components/sections/RoleSection";
 import StorySection from "@/components/sections/StorySection";
 import WhySection from "@/components/sections/WhySection";
 
+export const metadata = {
+  title: 'African Heritage Guardians',
+  description: "African Heritage Guardians is a pioneering cultural tech organization dedicated to preserving, promoting, and digitalizing Africa's indigenous languages, cultures, and heritage. We believe that our stories, our voices, and our histories deserve a place in the digital world — not just for documentation, but for meaningful innovation and cultural pride.",
+}
+
 export default function Home() {
   return (
       <div className="space-y-12 lg:space-y-16">

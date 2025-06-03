@@ -17,10 +17,17 @@ export type slidesTypes = {
 
 export type footerLinksTypes = { name: string; href: string };
 
-
 export type acknowledgementTypes = {
   id: number;
   name: string;
   image: string;
   status: string;
-}
+};
+
+export type projectTypes = {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  status: string;
+};

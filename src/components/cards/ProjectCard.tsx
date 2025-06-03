@@ -1,28 +1,46 @@
-import { Link } from "@radix-ui/themes";
+import { Badge, Link } from "@radix-ui/themes";
 import Image from "next/image";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 
-function ProjectCard() {
+type Props = {
+  title: string;
+  description: string;
+  image: string;
+  status: string;
+};
+
+function ProjectCard({ title, description, image, status }: Props) {
   return (
-    <article className="card flex gap-x-6 hover:text-amber-400 transition-colors duration-300">
-      <div className="h-full md:w-2xl lg:w-4xl rounded-md">
+    <article className="card flex flex-col sm:flex-row gap-4 sm:gap-6 hover:text-amber-400 transition-colors duration-300 relative h-full">
+      {/* Fixed aspect ratio container */}
+      <div className="relative w-full sm:w-48 md:w-56 lg:w-64 h-48 sm:h-32 md:h-36 lg:h-40 flex-shrink-0 rounded-md overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop"
-          alt="image"
-          width={500}
-          height={500}
-          className="h-full w-full object-cover object-center rounded-sm"
+          src={image}
+          alt={`${title} project image`}
+          fill
+          className="object-cover object-center"
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 192px, (max-width: 1024px) 224px, 256px"
         />
+        {status && (
+          <Badge
+            color={status.toLowerCase() === "complete" ? "green" : "amber"}
+            className="absolute top-2 right-2 z-10"
+          >
+            {status}
+          </Badge>
+        )}
       </div>
-      <div className="space-y-2">
-        <h4 className="text-xl font-semibold">AfriLex</h4>
-        <p className="text-[.9rem] text-gray-600">
-          AfriLex is a pioneering computational linguistics project focused on
-          preserving, promoting, and digitalizing Africa&apos;s indigenous
-          languages.
-        </p>
-        <div className="relative h-6">
-          <div className="flex gap-x-1 items-center hover:cursor-pointer absolute right-2 -bottom-1 group">
+
+      <div className="flex-1 flex flex-col justify-between min-h-0">
+        <div className="space-y-2">
+          <h4 className="text-xl font-semibold">{title}</h4>
+          <p className="text-[.9rem] text-gray-600 line-clamp-4">
+            {description}
+          </p>
+        </div>
+
+        <div className="flex justify-end mt-4">
+          <div className="flex gap-x-1 items-center hover:cursor-pointer group">
             <Link href="#" size="2" underline="hover">
               Go to Project
             </Link>

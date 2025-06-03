@@ -1,4 +1,4 @@
-import { aboutUsTypes, navLinksTypes, slidesTypes, footerLinksTypes, acknowledgementTypes } from "@/types";
+import { aboutUsTypes, navLinksTypes, slidesTypes, footerLinksTypes, acknowledgementTypes, projectTypes } from "@/types";
 
 export const navLinks: navLinksTypes[] = [
   { name: "Home", href: "/" },
@@ -96,7 +96,7 @@ export const acknowledgementData: acknowledgementTypes[] = [
     id: 1,
     name: "DSD",
     image: "/images/sponsors/dsd.png",
-    status: "Gold",
+    status: "Bronze",
   },
   {
     id: 2,
@@ -109,7 +109,9 @@ export const acknowledgementData: acknowledgementTypes[] = [
     name: "NYDA",
     image: "/images/sponsors/nyda.png",
     status: "Gold",
-  }
+  },
+
+  // Bronze, Gold, Silver, Platinum
 ]
 
 export const flagsAndLanguages: { id: number, country: string, flagUrl: string, language: string }[] = [
@@ -118,24 +120,49 @@ export const flagsAndLanguages: { id: number, country: string, flagUrl: string, 
   { id: 3, country: "Botswana", flagUrl: "/images/flags/botswana-flag.webp", language: "SeTswana" },
   { id: 4, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
   { id: 5, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "SePedi" },
-  { id: 6, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Xitsonga" },
-  { id: 7, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Afrikaans" },
-  { id: 8, country: "Lesotho", flagUrl: "/images/flags/lesotho-flag.webp", language: "SeSotho" },
-  { id: 9, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
-  { id: 10, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
-  { id: 11, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
-  { id: 12, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" },
+  { id: 6, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" },
+  { id: 7, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Xitsonga" },
+  { id: 8, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Afrikaans" },
+  { id: 9, country: "Lesotho", flagUrl: "/images/flags/lesotho-flag.webp", language: "SeSotho" },
+  { id: 10, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
+  { id: 11, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
+  { id: 12, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
   // duplicates
   { id: 13, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "IsiXhosa" },
   { id: 14, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "IsiZulu" },
   { id: 15, country: "Botswana", flagUrl: "/images/flags/botswana-flag.webp", language: "SeTswana" },
   { id: 16, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
   { id: 17, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "SePedi" },
-  { id: 18, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Xitsonga" },
-  { id: 19, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Afrikaans" },
-  { id: 20, country: "Lesotho", flagUrl: "/images/flags/lesotho-flag.webp", language: "SeSotho" },
-  { id: 21, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
-  { id: 22, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
-  { id: 23, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
-  { id: 24, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" }
+  { id: 18, country: "Swaziland", flagUrl: "/images/flags/swaziland-flag.png", language: "SiSwati" },
+  { id: 19, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Xitsonga" },
+  { id: 20, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "Afrikaans" },
+  { id: 21, country: "Lesotho", flagUrl: "/images/flags/lesotho-flag.webp", language: "SeSotho" },
+  { id: 22, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "English" },
+  { id: 23, country: "South Africa", flagUrl: "/images/flags/south-africa-flag.gif", language: "TshiVenda" },
+  { id: 24, country: "Zimbabwe", flagUrl: "/images/flags/zimbabwe-flag.gif", language: "ChiShona" },
+]
+
+
+export const projects: projectTypes[] = [
+  {
+    id: 1,
+    title: "AfriLex",
+    description: "AfriLex is a pioneering computational linguistics project focused on preserving, promoting, and digitalizing Africa's indigenous languages.",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    status: "Complete",
+  },
+  {
+    id: 2,
+    title: "Afrimage",
+    description: "Afrimage is a repository dedicated to preserving African indigenous cultural visual identities.",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    status: "In Progress",
+  },
+  {
+    id: 3,
+    title: "AfriLingo",
+    description: "AfriLingo is an online edu-ecosystem for curious minds to learn African indigenious languages.",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+    status: "In Progress",
+  }
 ]
