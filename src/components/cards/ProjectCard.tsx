@@ -39,14 +39,14 @@ function ProjectCard({ title, description, image, status }: Props) {
           </p>
         </div>
 
-        <div className="flex justify-end mt-4">
+        {status === "Complete" &&  <div className="flex justify-end mt-4">
           <div className="flex gap-x-1 items-center hover:cursor-pointer group">
             <Link href="#" size="2" underline="hover">
               Go to Project
             </Link>
             <ArrowRightIcon className="text-amber-700 transition-transform duration-300 group-hover:translate-x-2 group-hover:animate-pulse" />
           </div>
-        </div>
+        </div>}
       </div>
     </article>
   );

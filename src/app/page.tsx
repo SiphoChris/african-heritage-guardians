@@ -1,3 +1,4 @@
+import Navbar from '@/components/NavBar'
 import InfiniteLoop from "@/components/InfiniteLoop";
 import AboutSection from "@/components/sections/AboutSection";
 import AcknowledgementSection from "@/components/sections/AcknowledgementSection";
@@ -8,6 +9,7 @@ import ProjectsSection from "@/components/sections/ProjectsSection";
 import RoleSection from "@/components/sections/RoleSection";
 import StorySection from "@/components/sections/StorySection";
 import WhySection from "@/components/sections/WhySection";
+import Footer from "@/components/sections/Footer"
 
 export const metadata = {
   title: 'African Heritage Guardians',
@@ -16,17 +18,21 @@ export const metadata = {
 
 export default function Home() {
   return (
-      <div className="space-y-12 lg:space-y-16">
+     <>
+        <Navbar />
+      <main className="px-36 space-y-12 lg:space-y-16 pt:20 md:pt-28">
         <HeroSection />
-        <StorySection/>
-        <InfiniteLoop/>
-        <AboutSection/>
-        <ProjectsSection/>
-        <WhySection/>
-        <RoleSection/>
-        <GallerySection/>
-        <AcknowledgementSection/>
-        <MiscSection/>
-      </div>
+        <StorySection />
+        <InfiniteLoop />
+        <AboutSection />
+        <ProjectsSection />
+        <WhySection />
+        <RoleSection />
+        <GallerySection />
+        <AcknowledgementSection />
+        <MiscSection />
+      </main>
+      <Footer/>
+     </>
   );
 }

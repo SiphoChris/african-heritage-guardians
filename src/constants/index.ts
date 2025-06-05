@@ -9,6 +9,7 @@ export const navLinks: navLinksTypes[] = [
     subLinks: [
       { name: "AfriLex", href: "/projects/afrilex" },
       { name: "Afrimage", href: "/projects/afrimage" },
+      { name: "AfriLingo", href: "/projects/afrilingo" },
     ],
   },
   { name: "Contact", href: "#" },
@@ -166,3 +167,19 @@ export const projects: projectTypes[] = [
     status: "In Progress",
   }
 ]
+
+
+// South African and regional languages
+export const SUPPORTED_LANGUAGES: { code: string; name: string; displayName: string }[] = [
+  { code: "xh", name: "IsiXhosa", displayName: "isiXhosa" },
+  { code: "zu", name: "IsiZulu", displayName: "isiZulu" },
+  { code: "af", name: "Afrikaans", displayName: "Afrikaans" },
+  { code: "ts", name: "Xitsonga", displayName: "Xitsonga" },
+  { code: "ss", name: "SiSwati", displayName: "siSwati" },
+  { code: "ve", name: "TshiVenda", displayName: "Tshivenda" },
+  { code: "tn", name: "SeTswana", displayName: "Setswana" },
+  { code: "st", name: "SeSotho", displayName: "Sesotho" },
+  { code: "nso", name: "SePedi", displayName: "Sepedi" },
+  { code: "nr", name: "IsiNdebele", displayName: "isiNdebele" },
+  { code: "sn", name: "ChiShona", displayName: "chiShona" },
+];

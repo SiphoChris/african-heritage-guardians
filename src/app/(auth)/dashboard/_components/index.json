@@ -1,0 +1,399 @@
+{
+  "first_language": {
+    "id": "uuid",
+    "word": "string",
+    "language": "xh",
+    "lemma": {
+      "is_lemma": true,
+      "lemma_word": "string"
+    },
+    "etymology": {
+      "title": "Intsusa yegama",
+      "content": "string"
+    },
+    "morphology": {
+      "prefix": {
+        "title": "Isimaphambili",
+        "content": "string"
+      },
+      "root": {
+        "title": "Ingcambu",
+        "content": "string"
+      },
+      "suffix": {
+        "title": "Isimamva",
+        "content": "string"
+      },
+      "derivations": [
+        {
+          "word": "hambisa",
+          "pos": "Isenzi",
+          "definition": "string",
+          "example_sentence": "string",
+          "status": "Lisasetyenzwa"
+        }
+      ]
+    },
+    "phonology": {
+      "pronunciation_url": "https://urltoafile",
+      "syllables": ["ham", "ba"]
+    },
+    "grammar": {
+      "pos": "Isenzi",
+      "fos": "Isimntwiso",
+      "inflection": {
+        "tense": "past",
+        "aspect": "perfective",
+        "mood": "indicative",
+        "voice": "active",
+        "number": "singular",
+        "person": "3rd"
+      },
+      "other_references": [
+        {
+          "word": "hambisa",
+          "definition": "string",
+          "relationship": "homonym",
+          "pos": "Isenzi",
+          "status": "Lisasetyenzwa"
+        },
+        {
+          "word": "hambisa",
+          "definition": "string",
+          "relationship": "past tense",
+          "pos": "Isenzi",
+          "status": "Lisasetyenzwa"
+        }
+      ]
+    },
+    "semantics": {
+      "definitions": {
+        "Inkcazelo": [
+          {
+            "content": "string",
+            "definition_number": 1,
+            "example_sentence": "string",
+            "properties": {
+              "register": "formal",
+              "pos": "verb"
+            }
+          },
+          {
+            "content": "string",
+            "definition_number": 2,
+            "example_sentence": "string",
+            "properties": {
+              "register": "formal",
+              "pos": "verb"
+            }
+          }
+        ]
+      },
+      "antonyms": [
+        {
+          "title": "Izichasi",
+          "words": ["hlala", "sala"]
+        }
+      ],
+      "synonyms": [
+        {
+          "title": "Izithetha-ntonye",
+          "words": ["nyakaza", "suka"]
+        }
+      ]
+    },
+    "usage": {
+      "example_sentences": [
+        {
+          "sentence": "Uhambisiwe nguMama.",
+          "context": "daily conversation",
+          "register": "informal",
+          "created_by": {
+            "name": "Siphe",
+            "role": "user"
+          }
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "hamba kakuhle",
+          "meaning": "go well (farewell)"
+        },
+        {
+          "phrase": "hamba ngeenyawo",
+          "meaning": "walk on foot"
+        }
+      ],
+      "register": "Liseburhulumenteni",
+      "cultural_notes": "string"
+    },
+    "word_formation": {
+      "prefix": {
+        "title": "Iceba",
+        "value": "u"
+      },
+      "stem": {
+        "title": "Isisekelo",
+        "value": "hamb"
+      },
+      "root": {
+        "title": "Isiqu",
+        "value": "hamb"
+      },
+      "suffix": {
+        "title": "Isimamva",
+        "value": "ile"
+      }
+    }
+  },
+
+  "translated": {
+    "id": "uuid",
+    "target_language": "en",
+    "translations": ["walk", "go", "move", "travel"],
+    "etymology": [
+      {
+        "title": "Etymology",
+        "content": "From Proto-Bantu *-jàmbá"
+      }
+    ],
+    "morphology": {
+      "prefix": [
+        {
+          "title": "Isimaphambuli",
+          "content": "u-",
+          "gloss": "subject marker (3rd person singular)"
+        },
+        {
+          "title": "Prefix",
+          "content": "u-",
+          "gloss": "3rd person singular subject"
+        }
+      ],
+      "root": [
+        {
+          "title": "Isiqu",
+          "content": "hamb",
+          "gloss": ["walk", "go"]
+        },
+        {
+          "title": "Root",
+          "content": "hamb",
+          "gloss": ["walk", "go"]
+        }
+      ],
+      "suffix": [
+        {
+          "title": "Isimamva",
+          "content": "ile",
+          "gloss": "indicates past tense"
+        },
+        {
+          "title": "Suffix",
+          "content": "ile",
+          "gloss": "perfect aspect"
+        }
+      ],
+      "derivations": [
+        {
+          "word": "hambisa",
+          "pos": "verb",
+          "translation": ["make go", "send"],
+          "example_sentence": "Umama uhambise abantwana esikolweni",
+          "translation_example": "Mother sent the children to school",
+          "status": "complete"
+        }
+      ]
+    },
+    "phonology": {
+      "pronunciation_url": "https://urltoafile",
+      "syllables": ["u", "ham", "bi", "le"]
+    },
+    "grammar": {
+      "pos": "verb",
+      "fos": "",
+      "inflection": {
+        "tense": "perfect",
+        "aspect": "perfective",
+        "mood": "indicative",
+        "voice": "active",
+        "number": "singular",
+        "person": "3rd"
+      },
+      "other_references": [
+        {
+          "word": "hamba",
+          "definition": "walk, go (imperative)",
+          "relationship": "synonym",
+          "pronunciation": "urltofile",
+          "pos": "verb",
+          "status": "complete"
+        },
+        {
+          "word": "ukuhamba",
+          "definition": "to walk, to go",
+          "relationship": "homonym",
+          "pronunciation": "urltofile",
+          "pos": "verb",
+          "status": "complete"
+        }
+      ]
+    },
+    "semantics": {
+      "definitions": [
+        [
+          {
+            "content": "string",
+            "definition_number": 1,
+            "example_sentence": "string",
+            "properties": {
+              "register": "formal",
+              "pos": "verb"
+            }
+          },
+          {
+            "title": "Definition",
+            "content": "To move from one place to another on foot",
+            "definition_number": 1,
+            "example_sentence": "string",
+            "properties": {
+              "register": "formal",
+              "pos": "verb"
+            }
+          }
+        ],
+        [
+          {
+            "content": "string",
+            "definition_number": 1,
+            "example_sentence": "string",
+            "properties": {
+              "register": "formal",
+              "pos": "verb"
+            }
+          },
+          {
+            "title": "Definition",
+            "content": "To leave a place",
+            "definition_number": 2,
+            "example_sentence": "string",
+            "properties": {
+              "register": "formal",
+              "pos": "verb"
+            }
+          }
+        ]
+      ],
+      "antonyms": [
+        {
+          "title": "Izichasi",
+          "words": ["hlala", "sala"]
+        },
+        {
+          "title": "Antonyms",
+          "words": ["stay", "remain"]
+        }
+      ],
+      "synonyms": [
+        {
+          "title": "Izithetha-ntonye",
+          "words": ["nyakaza", "suka"]
+        },
+        {
+          "title": "Synonyms",
+          "words": ["depart", "leave", "go"]
+        }
+      ]
+    },
+    "usage": {
+      "example_sentences": [
+        {
+          "sentence": "Uhambile ekuseni.",
+          "translation": "He/She left in the morning.",
+          "context": "past action",
+          "register": "neutral",
+          "created_by": {
+            "name": "Siphe",
+            "role": "user"
+          }
+        },
+        {
+          "sentence": "Bahambile emini.",
+          "translation": "They left at noon.",
+          "context": "group action",
+          "register": "neutral",
+          "created_by": {
+            "name": "Sipho",
+            "role": "user"
+          }
+        }
+      ],
+      "collocations": [
+        {
+          "phrase": "hamba kakuhle",
+          "translation": "go well",
+          "meaning": "farewell greeting",
+          "usage_note": "common parting phrase"
+        },
+        {
+          "phrase": "hamba ngeenyawo",
+          "translation": "walk on foot",
+          "meaning": "travel by walking",
+          "usage_note": "emphasizes mode of transport"
+        }
+      ]
+    }
+  },
+  "custom_properties": {
+    "noun_class": {
+      "title": "amahlelo",
+      "options": [
+        "1a",
+        "2a",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "value": "3"
+    },
+    "verb_extension": {
+      "title": "Isixando",
+      "options": ["sokwenzisa", "sokwenzela", "sokwenzana", "sokwenziwa"],
+      "value": "sokwenzisa"
+    },
+    "noun_type": {
+      "title": "udidi lwesibizo",
+      "options": ["soqobo", "esimbaxa"],
+      "value": "esimbaxa"
+    },
+    "adverb_type": {
+      "title": "Isihlomelo",
+      "options": ["sexesha", "sobunjani", "sendawo"],
+      "value": "sexesha"
+    }
+  },
+
+  "metadata": {
+    "verified": true,
+    "status": "Lisasetyenzwa",
+    "is_published": false,
+    "created_by": "adminId123",
+    "created_at": "2025-05-01T10:00:00Z",
+    "updated_at": "2025-05-06T22:00:00Z",
+    "contributors": ["adminId123", "userId456"]
+  }
+}

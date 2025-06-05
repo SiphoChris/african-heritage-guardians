@@ -31,3 +31,22 @@ export type projectTypes = {
   image: string;
   status: string;
 };
+
+
+export interface DictionaryFormData {
+  name: string;
+  displayName: string;
+  language: string;
+  languageCode: string;
+  description: string;
+  customProperties: CustomProperty[];
+}
+
+export interface CustomProperty {
+  id: string;
+  name: string;
+  localizedName: string;
+  type: "string" | "array" | "boolean" | "integer";
+  required: boolean;
+  description: string;
+}
