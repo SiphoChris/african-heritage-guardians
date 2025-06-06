@@ -197,11 +197,11 @@ function Main() {
                 </div>
 
                 <Text size="1" className="text-slate-500 mb-3 block">
-                  Define language-specific properties (e.g., "isenzo" for verb
+                  Define language-specific properties (e.g., &quot;isenzo&quot; for verb
                   in isiXhosa)
                 </Text>
 
-                {customProperties.map((property, index) => (
+                {customProperties.map((property) => (
                   <Card key={property.id} className="p-3 mb-3 bg-slate-50">
                     <Grid columns="3" gap="2" className="mb-2">
                       <TextField.Root
@@ -269,7 +269,7 @@ function Main() {
 
                 {customProperties.length === 0 && (
                   <div className="text-center py-4 text-slate-400 border-2 border-dashed border-slate-200 rounded">
-                    No custom properties added yet. Click "Add Property" to get
+                    No custom properties added yet. Click &quot;Add Property&quot; to get
                     started.
                   </div>
                 )}

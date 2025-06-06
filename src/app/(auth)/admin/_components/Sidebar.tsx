@@ -5,7 +5,7 @@ function Sidebar() {
   return (
     <aside className="w-52 bg-amber-300 shadow-lg">
       <div className="p-6">
-        <h2 className="text-2xl font-bold text-gray-800">Dashboard</h2>
+        <h2 className="text-xl font-semibold text-gray-800">Menu</h2>
       </div>
       <nav className="mt-6">
         <div className="flex gap-x-2">

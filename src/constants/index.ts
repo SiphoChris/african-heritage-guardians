@@ -170,7 +170,7 @@ export const projects: projectTypes[] = [
 
 
 // South African and regional languages
-export const SUPPORTED_LANGUAGES: { code: string; name: string; displayName: string }[] = [
+export const SUPPORTED_LANGUAGES = [
   { code: "xh", name: "IsiXhosa", displayName: "isiXhosa" },
   { code: "zu", name: "IsiZulu", displayName: "isiZulu" },
   { code: "af", name: "Afrikaans", displayName: "Afrikaans" },
@@ -182,4 +182,30 @@ export const SUPPORTED_LANGUAGES: { code: string; name: string; displayName: str
   { code: "nso", name: "SePedi", displayName: "Sepedi" },
   { code: "nr", name: "IsiNdebele", displayName: "isiNdebele" },
   { code: "sn", name: "ChiShona", displayName: "chiShona" },
+];
+
+export const DEFAULT_LANGUAGE_CODE = "xh";
+
+export const POS_OPTIONS = [
+  { value: "noun", label: "Noun" },
+  { value: "verb", label: "Verb" },
+  { value: "adjective", label: "Adjective" },
+  { value: "adverb", label: "Adverb" },
+  { value: "pronoun", label: "Pronoun" },
+  { value: "preposition", label: "Preposition" },
+  { value: "conjunction", label: "Conjunction" },
+  { value: "interjection", label: "Interjection" },
+];
+
+export const REGISTER_OPTIONS = [
+  { value: "formal", label: "Formal" },
+  { value: "informal", label: "Informal" },
+  { value: "slang", label: "Slang" },
+  { value: "archaic", label: "Archaic" },
+];
+
+export const STATUS_OPTIONS = [
+  { value: "complete", label: "Complete" },
+  { value: "incomplete", label: "Incomplete" },
+  { value: "needs_review", label: "Needs Review" },
 ];
